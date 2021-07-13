@@ -82,3 +82,58 @@ body {
 
 /* end of header  */
 
+/* start of main section  */
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    padding-left: 180px;
+    padding-right: 210px;
+    padding-top: 70px;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    width: 330px;
+    height: 474px;
+    margin: 15px;
+    box-shadow: 0px 0px 40px rgba(63, 39, 39, 0.15);
+}
+
+.player-images img {
+    width: 300px;
+    height: 256px;  
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    
+    
+}
+
+.player-name {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: #18191F;
+}
+
+
+.player-details {
+    color: #6C6C6C;
+    font-size: 16px;
+    margin-bottom: 18px;
+    margin-top: 10px;
+}
+
+
+
