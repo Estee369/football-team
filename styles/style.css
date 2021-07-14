@@ -153,4 +153,63 @@ body {
 }
 
 
+/* main section ended here  */
 
+/* footer section  */
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 63px;
+    /* width: 483.87px;
+    height: 213px;     */
+}
+
+
+.logo-png img {
+    /* width: 483.87px;
+    height: 110px; */
+    margin: 25px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #969BAB;
+    margin: 0px 14px;
+    /* background-color: rgba(128, 128, 128, 0.103);
+    border: 5px solid rgba(128, 128, 128, 0.103); */
+    /* border-radius: 50%; */
+  
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 170px;
+    height: 32px; */
+    padding-bottom: 20px;
+    
+}
+
+.fab {
+         padding: 20px;
+        font-size: 32px;
+        width: 32x;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        background-color: rgba(128, 128, 128, 0.103)
+}
+
+
+
+.copyright-text {
+    font-size: 18px;
+    width: 236px;
+}
