@@ -24,9 +24,12 @@ body {
 .top-header{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    
-    
+    width: 50%;   
+}
+
+.top-header:hover img {
+    transform: scale(50%) rotate(360deg);
+    transition: transform 2s ease-in-out;
 }
 
 .distance{
@@ -102,11 +105,7 @@ body {
     display: flex;
     flex-direction: column;
     background: #FFFFFF;
-    /* width: 330px;
-    height: 456px; */
-    
     height: 474px;
-    /* margin: 15px; */
     box-shadow: 0px 0px 40px rgba(63, 39, 39, 0.15);
 }
 
@@ -115,10 +114,8 @@ body {
 }
 
 .player-images img {
-    /* width: 300px; */
     width: 90%;
     height: 256px;  
-    /* text-align: center;  */
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
@@ -127,9 +124,6 @@ body {
 .blog {
     display: flex;
     flex-direction: column;
-    /* margin:15px; */
-    
-    
 }
 
 .player-name {
@@ -150,8 +144,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    /* margin-bottom: 18px;
-    margin-top: 10px; */
 }
 
 
@@ -165,44 +157,37 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-bottom: 63px;
-    /* width: 483.87px;
-    height: 213px;     */
+    margin-left: 475px;
+    margin-right: 481px;
 }
 
 
+
 .logo-png img {
-    /* width: 483.87px;
-    height: 110px; */
     margin: 25px;
     margin-bottom: 20px;
-    
-    
+    width: 483.87px;
+    height: 110px;
 }
 
 .social-media a {
     text-decoration: none;
     color: #969BAB;
-    margin: 0px 14px;
-    /* background-color: rgba(128, 128, 128, 0.103);
-    border: 5px solid rgba(128, 128, 128, 0.103); */
-    /* border-radius: 50%; */
-  
+    margin: 0px 12px;
 }
 
 .social-media {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* width: 170px;
-    height: 32px; */
     padding-bottom: 20px;
     
 }
 
 .fab {
-        padding: 20px;
-        font-size: 32px;
-        width: 32x;
+        padding: 10px;
+        font-size: 20px;
+        width: 20x;
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
@@ -212,5 +197,5 @@ footer {
 
 
 .copyright-text {
-    font-size: 38px;   
+    font-size: 22px;   
 }
