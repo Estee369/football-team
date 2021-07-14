@@ -8,15 +8,17 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: auto;
+    max-width: 1550px;
+  
+
 }
 
 .top-section {
     display: flex;
     background-color: #2D25A0;
     justify-content: center;
-    height: 677px;
-    
+    height: 677px;   
 }
 
 .top-header{
@@ -198,7 +200,7 @@ footer {
 }
 
 .fab {
-         padding: 20px;
+        padding: 20px;
         font-size: 32px;
         width: 32x;
         text-align: center;
@@ -210,6 +212,5 @@ footer {
 
 
 .copyright-text {
-    font-size: 18px;
-    width: 236px;
+    font-size: 38px;   
 }
